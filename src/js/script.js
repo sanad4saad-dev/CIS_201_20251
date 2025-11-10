@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
             const car = btn.getAttribute('data-car');
-            window.location.href = `Cart.html?car=${car}`;
+            window.location.href = `cart.html?car=${car}`;
         });
     });
 
@@ -178,4 +178,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
+
 });
